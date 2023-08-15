@@ -31,6 +31,7 @@ while jugar:
     
     while Human_c == 3 or Maquina_c == 3:
         continuar = input(print ("Desea continuar jugando ? "))
+        
         if continuar == "Y" or continuar == "y":
             print ("Continuamos")
         elif continuar == "N" or continuar =="n":
